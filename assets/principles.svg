@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Principles: build, explore, share">
+<style>
+text{font-family:monospace}
+.rise{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+.fade{opacity:0;animation:fade .6s ease-out forwards}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s ease-out forwards}
+.blink{animation:blink 1s steps(2,start) infinite}
+.float{animation:float 3.5s ease-in-out infinite}
+.glow{animation:glow 3s ease-in-out infinite}
+.sweep{animation:sweep 3.6s ease-in-out infinite}
+.type{clip-path:inset(0 100% 0 0);animation:type 1s steps(34,end) forwards}
+@keyframes rise{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes blink{50%{opacity:.15}}
+@keyframes float{50%{transform:translateY(-5px)}}
+@keyframes glow{50%{opacity:.35}}
+@keyframes sweep{from{transform:translateX(-120px)}to{transform:translateX(var(--w))}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important;clip-path:none!important}}
+</style>
+<rect width="900" height="200" fill="#0b0e12"/>
+<text class="fade" x="24" y="36" font-size="14" fill="#909b9e">$ cat principles.txt</text><g class="type" style="animation-delay:0.60s"><text x="24" y="76" font-size="16"><tspan fill="#a9ff55" xml:space="preserve">[01] BUILD   </tspan><tspan fill="#edf0ed">Turn curiosity into working projects.</tspan></text></g><g class="type" style="animation-delay:1.70s"><text x="24" y="110" font-size="16"><tspan fill="#a9ff55" xml:space="preserve">[02] EXPLORE </tspan><tspan fill="#edf0ed">Connect art, code, and emerging technology.</tspan></text></g><g class="type" style="animation-delay:2.80s"><text x="24" y="144" font-size="16"><tspan fill="#a9ff55" xml:space="preserve">[03] SHARE   </tspan><tspan fill="#edf0ed">Learn in public and contribute when possible.</tspan></text></g><text class="blink" x="24" y="178" font-size="16" fill="#a9ff55">█</text>
+</svg>

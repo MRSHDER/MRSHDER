@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="English Lab">
+<style>
+text{font-family:monospace}
+.rise{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+.fade{opacity:0;animation:fade .6s ease-out forwards}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s ease-out forwards}
+.blink{animation:blink 1s steps(2,start) infinite}
+.float{animation:float 3.5s ease-in-out infinite}
+.glow{animation:glow 3s ease-in-out infinite}
+.sweep{animation:sweep 3.6s ease-in-out infinite}
+.type{clip-path:inset(0 100% 0 0);animation:type 1s steps(34,end) forwards}
+@keyframes rise{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes blink{50%{opacity:.15}}
+@keyframes float{50%{transform:translateY(-5px)}}
+@keyframes glow{50%{opacity:.35}}
+@keyframes sweep{from{transform:translateX(-120px)}to{transform:translateX(var(--w))}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important;clip-path:none!important}}
+</style>
+<rect width="900" height="64" fill="#0b0e12"/>
+<rect class="draw" pathLength="1" x="1" y="1" width="898" height="62" rx="8" fill="none" stroke="#242b31" stroke-width="1.5" style="animation-delay:0.45s"/>
+<text class="fade" x="24" y="38" font-size="14" fill="#a9ff55" style="animation-delay:0.45s">[04]</text>
+<text class="rise" x="64" y="30" font-size="17" font-weight="bold" fill="#edf0ed" style="animation-delay:0.45s">English Lab</text>
+<text class="rise" x="64" y="50" font-size="13" fill="#909b9e" style="animation-delay:0.65s">An English-learning workspace in development; repository not yet linked.</text>
+<g class="fade" style="animation-delay:0.95s"><text x="750" y="37" font-size="13" fill="#909b9e">IN DEV</text></g>
+<rect class="sweep" x="0" y="60" width="120" height="2" fill="#a9ff55" opacity=".7" style="--w:900px;animation-delay:1.7999999999999998s"/>
+</svg>

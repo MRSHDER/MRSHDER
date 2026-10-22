@@ -20,16 +20,8 @@ I'm an art student interested in creative technology, AI-assisted workflows, sof
 
 <table>
 <tr>
-<td align="center" width="50%">
-<a href="https://openai.com/"><img src="https://cdn.simpleicons.org/openai/FFFFFF" width="44" height="44" alt="OpenAI logo" /></a><br/>
-<b>ChatGPT · OpenAI</b><br/>
-<sub>Planning · Learning · Technical discussions · Review</sub>
-</td>
-<td align="center" width="50%">
-<a href="https://www.anthropic.com/claude"><img src="https://cdn.simpleicons.org/anthropic/FFFFFF" width="44" height="44" alt="Anthropic logo" /></a><br/>
-<b>Claude · Anthropic</b><br/>
-<sub>Implementation · Architecture · Code iteration</sub>
-</td>
+<td align="center" width="50%"><a href="https://openai.com/"><img src="./assets/collab-openai.svg" alt="ChatGPT · OpenAI — Planning · Learning · Technical discussions · Review" width="100%" /></a></td>
+<td align="center" width="50%"><a href="https://www.anthropic.com/claude"><img src="./assets/collab-claude.svg" alt="Claude · Anthropic — Implementation · Architecture · Code iteration" width="100%" /></a></td>
 </tr>
 </table>
 
@@ -37,19 +29,15 @@ I'm an art student interested in creative technology, AI-assisted workflows, sof
 
 ### `> projects`
 
-- **[CUCN Contests](https://github.com/MRSHDER/cucn-contests)** — A student competition tracking project.
-- **[L.D.C. Terminal](https://github.com/MRSHDER/L.D.C.Terminal)** — An experimental software project.
-- **[VoxMute Archive](https://github.com/MRSHDER/voxmute-archive)** — A creative archive project.
-- **English Lab** — An English-learning workspace in development; repository not yet linked.
+<a href="https://github.com/MRSHDER/cucn-contests"><img src="./assets/project-1.svg" alt="CUCN Contests — A student competition tracking project." width="100%" /></a>
+<a href="https://github.com/MRSHDER/L.D.C.Terminal"><img src="./assets/project-2.svg" alt="L.D.C. Terminal — An experimental software project." width="100%" /></a>
+<a href="https://github.com/MRSHDER/voxmute-archive"><img src="./assets/project-3.svg" alt="VoxMute Archive — A creative archive project." width="100%" /></a>
+<img src="./assets/project-4.svg" alt="English Lab — An English-learning workspace in development; repository not yet linked." width="100%" />
 
 ### `> principles`
 
-```text
-[01] BUILD    Turn curiosity into working projects.
-[02] EXPLORE  Connect art, code, and emerging technology.
-[03] SHARE    Learn in public and contribute when possible.
-```
+<img src="./assets/principles.svg" alt="[01] BUILD Turn curiosity into working projects. [02] EXPLORE Connect art, code, and emerging technology. [03] SHARE Learn in public and contribute when possible." width="100%" />
 
 ---
 
-<div align="center"><sub>ART × AI × OPEN SOURCE · Always learning, always building.</sub></div>
+<img src="./assets/footer.svg" alt="ART × AI × OPEN SOURCE · Always learning, always building." width="100%" />

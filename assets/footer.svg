@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Art × AI × Open Source">
+<style>
+text{font-family:monospace}
+.rise{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+.fade{opacity:0;animation:fade .6s ease-out forwards}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s ease-out forwards}
+.blink{animation:blink 1s steps(2,start) infinite}
+.float{animation:float 3.5s ease-in-out infinite}
+.glow{animation:glow 3s ease-in-out infinite}
+.sweep{animation:sweep 3.6s ease-in-out infinite}
+.type{clip-path:inset(0 100% 0 0);animation:type 1s steps(34,end) forwards}
+@keyframes rise{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes blink{50%{opacity:.15}}
+@keyframes float{50%{transform:translateY(-5px)}}
+@keyframes glow{50%{opacity:.35}}
+@keyframes sweep{from{transform:translateX(-120px)}to{transform:translateX(var(--w))}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important;clip-path:none!important}}
+</style>
+<rect width="900" height="60" fill="#0b0e12"/>
+<path class="draw" pathLength="1" d="M0 12H900" stroke="#a9ff55" stroke-width="1" opacity=".6"/><rect class="sweep" x="0" y="11" width="120" height="2" fill="#a9ff55" style="--w:900px"/>
+<text class="fade" x="450" y="44" font-size="13" fill="#909b9e" text-anchor="middle" style="animation-delay:.4s">ART × AI × OPEN SOURCE · Always learning, always building.<tspan class="blink" fill="#a9ff55"> _</tspan></text>
+</svg>
