@@ -29,10 +29,8 @@ I'm an art student interested in creative technology, AI-assisted workflows, sof
 
 ### `> projects`
 
-<a href="https://github.com/MRSHDER/cucn-contests"><img src="./assets/project-1.svg" alt="CUCN Contests — A student competition tracking project." width="100%" /></a>
-<a href="https://github.com/MRSHDER/L.D.C.Terminal"><img src="./assets/project-2.svg" alt="L.D.C. Terminal — An experimental software project." width="100%" /></a>
-<a href="https://github.com/MRSHDER/voxmute-archive"><img src="./assets/project-3.svg" alt="VoxMute Archive — A creative archive project." width="100%" /></a>
-<img src="./assets/project-4.svg" alt="English Lab — An English-learning workspace in development; repository not yet linked." width="100%" />
+<a href="https://github.com/MRSHDER/voxmute-archive"><img src="./assets/project-1.svg" alt="VoxMute Archive — A scroll-driven character dossier site with live-synthesized sound." width="100%" /></a>
+<a href="https://github.com/MRSHDER/voxmute-desk"><img src="./assets/project-2.svg" alt="VoxMute Desk — A signal-desk chat front end for VoxMute." width="100%" /></a>
 
 ### `> principles`
 

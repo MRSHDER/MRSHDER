@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="CUCN Contests">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="VoxMute Archive">
 <style>
 text{font-family:monospace}
 .rise{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
@@ -22,8 +22,8 @@ text{font-family:monospace}
 <rect width="900" height="64" fill="#0b0e12"/>
 <rect class="draw" pathLength="1" x="1" y="1" width="898" height="62" rx="8" fill="none" stroke="#a9ff55" stroke-width="1.5" style="animation-delay:0.00s"/>
 <text class="fade" x="24" y="38" font-size="14" fill="#a9ff55" style="animation-delay:0.00s">[01]</text>
-<text class="rise" x="64" y="30" font-size="17" font-weight="bold" fill="#edf0ed" style="animation-delay:0.00s">CUCN Contests</text>
-<text class="rise" x="64" y="50" font-size="13" fill="#909b9e" style="animation-delay:0.20s">A student competition tracking project.</text>
+<text class="rise" x="64" y="30" font-size="17" font-weight="bold" fill="#edf0ed" style="animation-delay:0.00s">VoxMute Archive</text>
+<text class="rise" x="64" y="50" font-size="13" fill="#909b9e" style="animation-delay:0.20s">A scroll-driven character dossier site with live-synthesized sound.</text>
 <g class="fade" style="animation-delay:0.50s"><circle class="blink" cx="750" cy="32" r="4" fill="#a9ff55"/><text x="764" y="37" font-size="13" fill="#a9ff55">REPO ↗</text></g>
 <rect class="sweep" x="0" y="60" width="120" height="2" fill="#a9ff55" opacity=".7" style="--w:900px;animation-delay:0s"/>
 </svg>
