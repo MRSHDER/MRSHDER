@@ -1,5 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Creative Technology Art AI Open Source">
-<rect width="1200" height="330" fill="#0b0e12"/><g stroke="#242b31" stroke-width="1"><path d="M0 54H1200M0 108H1200M0 162H1200M0 216H1200M0 270H1200"/><path d="M80 0V330M240 0V330M400 0V330M560 0V330M720 0V330M880 0V330M1040 0V330"/></g>
-<g font-family="monospace"><text x="56" y="49" font-size="16" fill="#a9ff55">● SYSTEM ONLINE</text><text x="56" y="130" font-size="54" font-weight="bold" fill="#edf0ed">CREATIVE</text><text x="56" y="194" font-size="54" font-weight="bold" fill="#edf0ed">TECHNOLOGY</text><text x="58" y="237" font-size="20" fill="#a9ff55">ART  /  AI  /  OPEN SOURCE</text><text x="58" y="286" font-size="15" fill="#909b9e">BUILD  •  EXPLORE  •  SHARE</text><text x="849" y="58" font-size="14" fill="#909b9e">COLLABORATION PIPELINE</text><text x="845" y="104" font-size="17" fill="#edf0ed">IDEA</text><text x="845" y="151" font-size="17" fill="#edf0ed">DESIGN</text><text x="845" y="198" font-size="17" fill="#edf0ed">BUILD</text><text x="845" y="245" font-size="17" fill="#edf0ed">RELEASE</text></g>
-<g stroke="#a9ff55" stroke-width="2" fill="none"><path d="M816 100H824V147H816V194H824V241H816"/><path d="M945 100H1120M945 147H1090M945 194H1150M945 241H1060"/></g><g fill="#a9ff55"><circle cx="1120" cy="100" r="4"/><circle cx="1090" cy="147" r="4"/><circle cx="1150" cy="194" r="4"/><circle cx="1060" cy="241" r="4"/></g><path d="M56 307H1144" stroke="#a9ff55" stroke-width="2"/>
+<style>
+text{font-family:monospace}
+.rise{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+.fade{opacity:0;animation:fade .6s ease-out forwards}
+.blink{animation:blink 1.2s steps(2,start) infinite}
+.grid{animation:grid 6s ease-in-out infinite}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw .8s ease-out forwards}
+.dot{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .4s ease-out forwards,pulse 2s ease-in-out infinite}
+.pkt{opacity:0;animation:pkt 2.6s linear infinite}
+.sweep{animation:sweep 3.6s ease-in-out infinite}
+.cursor{animation:blink 1s steps(2,start) infinite}
+@keyframes rise{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes blink{50%{opacity:.15}}
+@keyframes grid{50%{opacity:.45}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pop{from{opacity:0;transform:scale(0)}to{opacity:1;transform:scale(1)}}
+@keyframes pulse{50%{transform:scale(1.7)}}
+@keyframes pkt{0%{opacity:0;transform:translateX(0)}10%{opacity:1}85%{opacity:1}100%{opacity:0;transform:translateX(var(--d))}}
+@keyframes sweep{from{transform:translateX(-200px)}to{transform:translateX(1200px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important}.pkt{opacity:0!important}}
+</style>
+<rect width="1200" height="330" fill="#0b0e12"/>
+<g class="grid" stroke="#242b31" stroke-width="1"><path d="M0 54H1200M0 108H1200M0 162H1200M0 216H1200M0 270H1200"/><path d="M80 0V330M240 0V330M400 0V330M560 0V330M720 0V330M880 0V330M1040 0V330"/></g>
+<g>
+<text class="blink" x="56" y="49" font-size="16" fill="#a9ff55">●</text><text class="fade" x="78" y="49" font-size="16" fill="#a9ff55" style="animation-delay:.1s">SYSTEM ONLINE</text>
+<text class="rise" x="56" y="130" font-size="54" font-weight="bold" fill="#edf0ed" style="animation-delay:.3s">CREATIVE</text>
+<text class="rise" x="56" y="194" font-size="54" font-weight="bold" fill="#edf0ed" style="animation-delay:.5s">TECHNOLOGY</text>
+<text class="rise" x="58" y="237" font-size="20" fill="#a9ff55" style="animation-delay:.8s">ART  /  AI  /  OPEN SOURCE</text>
+<text class="fade" x="58" y="286" font-size="15" fill="#909b9e" style="animation-delay:1.1s">BUILD  •  EXPLORE  •  SHARE</text>
+<text class="cursor" x="272" y="286" font-size="15" fill="#a9ff55">_</text>
+<text class="fade" x="849" y="58" font-size="14" fill="#909b9e" style="animation-delay:.6s">COLLABORATION PIPELINE</text>
+<text class="fade" x="845" y="104" font-size="17" fill="#edf0ed" style="animation-delay:.9s">IDEA</text>
+<text class="fade" x="845" y="151" font-size="17" fill="#edf0ed" style="animation-delay:1.1s">DESIGN</text>
+<text class="fade" x="845" y="198" font-size="17" fill="#edf0ed" style="animation-delay:1.3s">BUILD</text>
+<text class="fade" x="845" y="245" font-size="17" fill="#edf0ed" style="animation-delay:1.5s">RELEASE</text>
+</g>
+<g stroke="#a9ff55" stroke-width="2" fill="none">
+<path class="draw" pathLength="1" d="M816 100H824V147H816V194H824V241H816" style="animation-delay:.8s"/>
+<path class="draw" pathLength="1" d="M945 100H1120" style="animation-delay:1s"/>
+<path class="draw" pathLength="1" d="M945 147H1090" style="animation-delay:1.2s"/>
+<path class="draw" pathLength="1" d="M945 194H1150" style="animation-delay:1.4s"/>
+<path class="draw" pathLength="1" d="M945 241H1060" style="animation-delay:1.6s"/>
+</g>
+<g fill="#a9ff55">
+<circle class="dot" cx="1120" cy="100" r="4" style="animation-delay:1.8s,2.6s"/>
+<circle class="dot" cx="1090" cy="147" r="4" style="animation-delay:2s,2.8s"/>
+<circle class="dot" cx="1150" cy="194" r="4" style="animation-delay:2.2s,3s"/>
+<circle class="dot" cx="1060" cy="241" r="4" style="animation-delay:2.4s,3.2s"/>
+</g>
+<g fill="#edf0ed">
+<circle class="pkt" cx="945" cy="100" r="2.5" style="--d:175px;animation-delay:2.6s"/>
+<circle class="pkt" cx="945" cy="147" r="2.5" style="--d:145px;animation-delay:3.1s"/>
+<circle class="pkt" cx="945" cy="194" r="2.5" style="--d:205px;animation-delay:3.6s"/>
+<circle class="pkt" cx="945" cy="241" r="2.5" style="--d:115px;animation-delay:4.1s"/>
+</g>
+<path d="M56 307H1144" stroke="#a9ff55" stroke-width="2" opacity=".45"/>
+<rect class="sweep" x="0" y="306" width="120" height="3" fill="#a9ff55" style="mix-blend-mode:screen"/>
+<rect x="0" y="300" width="56" height="14" fill="#0b0e12"/><rect x="1144" y="300" width="56" height="14" fill="#0b0e12"/>
 </svg>
